@@ -19,6 +19,6 @@ Este proceso fue realizado en Python
 1. Identificación y manejo de valores nulos: de la totalidad de los registros solo faltaban 21 datos donde 20 de estos corresponden a la descripcion de las series y el restante un pais de origen para un registro
 2. Normalización de Géneros: dado que cada serie puede tener multiples generos se establece una jerarquia de generos para determinar un genero principal de cada una de la series analizadas, esto se establece atraves de la frecuencia de estos generos de esta manera el genero principal queda de la forma Kids > Animation > Family > SciFy & Fantasy > Comedy > Crime > Drama
 
-## Daahboard 
+## Dashboard 
 
 ![Requerimientos del Desafío](pbi_req.png)
