@@ -18,6 +18,7 @@ Identificar si existe una tendencia en los géneros de las series mejor evaluada
 Este proceso fue realizado en Python
 1. Identificación y manejo de valores nulos: De la totalidad de los registros, solo faltaban 21 datos; 20 de estos corresponden a la descripción de las series y el restante a un país de origen para un registro.
 2. Normalización de géneros: Dado que cada serie puede tener múltiples géneros, se establece un algoritmo de jerarquía de géneros para determinar un género principal para cada una de las series analizadas. Esto se establece a través de la frecuencia de estos géneros de esta manera, el género principal queda de la forma: Kids > Animation > Family > Sci-Fi & Fantasy > Comedy > Crime > Drama.
+
    2.1 Aquellos valores que no se encuentran en los mencionado en el punto 2 se clasifican como "other".
 
 
