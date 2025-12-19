@@ -11,4 +11,5 @@ Identificar si existe una tendencia en los generos de las series mejor evaluadas
 ## Preguntas (KPIS) 
 
 * ¿Que paises producen mejores series?.
-* ¿Existe un cambio en la proporcion de los generos de las series mejor evaluadas en los últimos años?
+* ¿Existe un cambio en la proporcion de los generos de las series mejor evaluadas en los últimos años?.
+* ¿Si deseo partir solo con un genero en especifico hay alguno que destaque sobre los demás?.
