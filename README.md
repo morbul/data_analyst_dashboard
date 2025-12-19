@@ -25,7 +25,7 @@ def definir_genero_principal(genre_string):
     for prioridad in priority_list:
         if prioridad in str(genre_string):
             return prioridad
-    return "other"
+    return "other"```
 priority_list = ['Kids', 'Animation', 'Family', 'Sci-Fi & Fantasy', 'Comedy', 'Crime', 'Drama'].
 4. Eliminación duplicados: Se realizó una limpieza de seguridad eliminando registros repetidos mediante la columna id para asegurar que cada serie sea contabilizada una sola vez.
 5. Generación dataset final: Tras la limpieza, el dataset consolidado ([`tv_series_clean.csv`](https://github.com/morbul/data_analyst_dashboard/blob/main/tv_series_clean.csv)) cuenta con 1,999 registros de los 2,000 iniciales, garantizando una base de datos íntegra y optimizada para el Dashboard.
