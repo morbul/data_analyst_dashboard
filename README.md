@@ -13,3 +13,9 @@ Identificar si existe una tendencia en los generos de las series mejor evaluadas
 * ¿Que paises producen mejores series?.
 * ¿Existe un cambio en la proporcion de los generos de las series mejor evaluadas en los últimos años?.
 * ¿Si deseo partir solo con un genero en especifico hay alguno que destaque sobre los demás?.
+
+## Proceso de limpieza y transformación de los datos
+Este proceso fue realziado en Python
+### 1. Identificación y manejo de valores nulos: de la totalidad de los registros solo faltaban 21 datos donde 20 de estos corresponden a la descripcion de las series y el restante un pais de origen para un registro
+
+
