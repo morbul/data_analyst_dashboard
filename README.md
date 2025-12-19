@@ -22,7 +22,7 @@ Este proceso fue realizado en Python
 priority_list = ['Kids', 'Animation', 'Family', 'Sci-Fi & Fantasy', 'Comedy', 'Crime', 'Drama'].
 ```
 4. Eliminación duplicados: Se realizó una limpieza de seguridad eliminando registros repetidos mediante la columna id para asegurar que cada serie sea contabilizada una sola vez.
-5. Generación dataset final: Tras la limpieza, el dataset consolidado ([`tv_series_clean.csv`](https://github.com/morbul/data_analyst_dashboard/blob/main/tv_series_clean.csv)) cuenta con 1,999 registros de los 2,000 iniciales, garantizando una base de datos íntegra y optimizada para el Dashboard.
+5. Generación dataset final: Tras la limpieza, el dataset consolidado ([`tv_series_clean.csv`](https://github.com/morbul/data_analyst_dashboard/blob/main/tv_series_clean.csv)) cuenta con 1.999 registros de los 2.000 iniciales, garantizando una base de datos íntegra y optimizada para el Dashboard.
 
 
 ## Dashboard 
@@ -35,5 +35,5 @@ priority_list = ['Kids', 'Animation', 'Family', 'Sci-Fi & Fantasy', 'Comedy', 'C
 * La distribución de géneros en los últimos años se ha mantenido relativamente constante en un horizonte de 10 a 20 años.
 * La animación es el género que obtiene la mayor valoración a lo largo del tiempo.
 
-## Conclusion
+## Conclusión
 Si el objetivo es incursionar en plataformas de streaming para series, el grupo objetivo de mayor tamaño sería el de series de animación, tanto de producción estadounidense como asiática (Japón, Corea). También existe una gran presencia de series de habla hispana, pero el primer grupo es 7 veces más grande, por lo cual sería un mercado al cual apuntar en un primer modelo de negocio.
