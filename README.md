@@ -20,5 +20,6 @@ Este proceso fue realizado en Python
 2. Normalización de Géneros: dado que cada serie puede tener multiples generos se establece una jerarquia de generos para determinar un genero principal de cada una de la series analizadas, esto se establece atraves de la frecuencia de estos generos de esta manera el genero principal queda de la forma Kids > Animation > Family > SciFy & Fantasy > Comedy > Crime > Drama
 
 ## Dashboard 
-
+**[Ver Dashboard en Tiempo Real](https://app.powerbi.com/view?r=eyJrIjoiNWZkODYzMDAtM2RiOC00NGM1LWJmOWEtZmJjM2YzN2FjYjZkIiwidCI6IjM2YjZkNDEzLTNiNmYtNDgxYS1iYzlkLTY2ODliNTExY2FmYSIsImMiOjR9)**
+---
 ![Requerimientos del Desafío](pbi_req.png)
