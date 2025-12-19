@@ -18,8 +18,15 @@ Identificar si existe una tendencia en los géneros de las series mejor evaluada
 Este proceso fue realizado en Python
 1. Identificación y manejo de valores nulos: De la totalidad de los registros, solo faltaban 21 datos; 20 de estos corresponden a la descripción de las series y el restante a un país de origen para un registro, ninguno de estos registros es eliminado lass descripciones faltantes no son datos relevantes para el analisis realizado, el pais que falta se imputa manualmente con el correspondiente.
 2. Normalización de géneros: Dado que cada serie puede tener múltiples géneros, se establece un algoritmo de jerarquía de géneros para determinar un género principal para cada una de las series analizadas. Esto se establece a través de la frecuencia de estos géneros de esta manera, el género principal queda de la forma: Kids > Animation > Family > Sci-Fi & Fantasy > Comedy > Crime > Drama. Aquellos valores que no se encuentran en los mencionado en el punto 2 se clasifican como "other".
-# Fragmento de la lógica de priorización
+    ```python
 priority_list = ['Kids', 'Animation', 'Family', 'Sci-Fi & Fantasy', 'Comedy', 'Crime', 'Drama']
+
+def definir_genero_principal(genre_string):
+    for prioridad in priority_list:
+        if prioridad in str(genre_string):
+            return prioridad
+    return "other"
+priority_list = ['Kids', 'Animation', 'Family', 'Sci-Fi & Fantasy', 'Comedy', 'Crime', 'Drama'].
 4. Eliminación duplicados: Se realizó una limpieza de seguridad eliminando registros repetidos mediante la columna id para asegurar que cada serie sea contabilizada una sola vez.
 5. Generación dataset final: Tras la limpieza, el dataset consolidado ([`tv_series_clean.csv`](https://github.com/morbul/data_analyst_dashboard/blob/main/tv_series_clean.csv)) cuenta con 1,999 registros de los 2,000 iniciales, garantizando una base de datos íntegra y optimizada para el Dashboard.
 
