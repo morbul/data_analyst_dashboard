@@ -29,9 +29,12 @@ priority_list = ['Kids', 'Animation', 'Family', 'Sci-Fi & Fantasy', 'Comedy', 'C
 [Ver Dashboard en Tiempo Real](https://app.powerbi.com/view?r=eyJrIjoiNWZkODYzMDAtM2RiOC00NGM1LWJmOWEtZmJjM2YzN2FjYjZkIiwidCI6IjM2YjZkNDEzLTNiNmYtNDgxYS1iYzlkLTY2ODliNTExY2FmYSIsImMiOjR9)
 ---
 Resumen Ejecutivo (KPI Cards): Se ubicaron métricas globales (Puntaje, Votos y Popularidad) en la parte superior para dar contexto inmediato antes de entrar al detalle visual.
+
 Filtros Dinámicos: El uso de segmentadores por Año y Trimestre (Q1-Q4) permite al usuario realizar una segmentación temporal, facilitando el análisis de estacionalidad o tendencias específicas por periodos cortos.
 Treemap de Países (Cantidad por País): Se eligió este visual para representar la distribución geográfica debido a la alta disparidad de volúmenes entre países. Permite visualizar rápidamente que paises dominan el mercado.
+
 Gráfico de Líneas (Promedio de rating por Año y Género): Utilizado para identificar la consistencia de calidad. Las líneas permiten comparar cómo géneros específicos (como Animation o Comedy) mantienen valoraciones superiores a lo largo del tiempo frente a otros más volátiles.
+
 Gráfico de Barras 100% Apiladas (Recuento por Año y Género): Al normalizar las barras al 100%, se puede observar el porcentaje de mercado relativo de cada género por año, eliminando el ruido que genera el crecimiento total del volumen de series y enfocándose en la relevancia de cada categoría.
 ![Requerimientos del Desafío](pbi_req.png)
 
